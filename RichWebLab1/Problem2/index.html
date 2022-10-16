@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        CRUD HTML CSS JS
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<h1>CRUD HTML CSS JS</h1>
+	<hr>
+			<div class="notes-form">
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                
+                    <div>
+                        <label>Note</label><label class="validation-error hide" id="notesValidationError">This field is required.</label>
+                        <input type="text" name="notes" id="notes">
+                    </div>
+
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+		</div>
+		<br/>
+		<div class = "notes-table">
+                <table class="list" id="notesList">
+                    <thead>
+                        <tr>
+                            <th>Notes</th>
+                            <th>Operations</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

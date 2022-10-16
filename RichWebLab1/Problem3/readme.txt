@@ -1,0 +1,3 @@
+-Images on any webpage will be changed and replaced with famous footballers.
+-Header will be changed to say "Football is everywhere."
+-Paragraphs now changed to say "This website is now about football".
