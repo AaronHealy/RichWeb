@@ -1,0 +1,20 @@
+div.container{
+    text-align: center;
+    
+}
+
+div.result{
+    float: left;
+    text-align: left;
+    border: 2px solid black;
+    width: 500px;
+    Height: 750px;
+
+}
+
+div.repos{
+    float: right;
+    border: 2px solid black;
+    width: 500px;
+    Height: 750px;
+}

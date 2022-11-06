@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Phone Book</title>
+</head>
+<body>
+    <h1>PhoneBook</h1>
+	<hr>
+			<div class="phone-form">
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                
+                    <div>
+                        <label>Contact Name</label><label class="validation-error hide" id="nameValidationError">This field is required.</label>
+                        <input type="text" name="name" id="name" placeholder="Please Enter Name">
+                    </div>
+                    <div>
+                        <label>Phone Number</label>
+                        <input type="text" name="phone" id="phone" placeholder="Please Enter Number">
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input type="text" name="email" id="email" placeholder="Please enter Email">
+                    </div>
+
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>   
+                </form>
+		</div>
+		<br/>
+		<div class = "phone-table">
+            <input type="text" name="search" id="search" placeholder="Search">
+                <table class="list" id="phoneList">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Phone Number</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+        </div>
+
+<script src="script.js"></script>   
+</body>
+</html>

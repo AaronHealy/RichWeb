@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GitHub API Fetch</title>
+</head>
+<body>
+    <div class="container">
+            <h1> GitHub API Fetch</h1>
+            <form id="form" autocomplete="off">
+                <div class="form">
+                    <input type="text" id="Searchbar" placeholder="Search Github Username" required>
+                
+                </div>
+                <div class="form">
+                    <button type="submit" id="submit"> Search </button>
+                </div> 
+                <br><br>
+            </form>
+           
+    </div>
+    
+    <div class="result">
+        <h1>User Profile</h1>  
+        <div id="result"></div>
+
+        <p>Name:</p>  
+        <div id="name"></div>
+
+        <p>Username:</p>  
+        <div id="login"></div>
+
+        <p>Email:</p>  
+        <div id="email"></div>
+
+        <p>Location:</p>  
+        <div id="location"></div>
+
+        <p>Number of Gists:</p>  
+        <div id="public_gists"></div>
+
+    </div>
+
+        <div class="repos">
+            <h1>User Repos:</h1>  
+
+            <p>Name:</p>  
+            <div id="reponame"></div>
+
+            <p>Description:</p>  
+            <div id="description"></div>
+
+        </div>
+
+<script src="script.js"></script>
+</body>
+</html>
